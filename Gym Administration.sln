@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scr", "scr", "{6DDCCDB1-717A-42E3-9806-326B2E2040C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{C542B033-A73A-4B30-AE78-33347E2F375E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{31B7B555-EC92-41FC-8A6B-50BF6D113856}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymAdministration.Core", "GymAdministration.Core\GymAdministration.Core.csproj", "{93F16296-9F29-431F-BB78-07DB72053F17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console", "Console\Console.csproj", "{0F2077CF-F093-4BB8-8985-FAFCD62F7379}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93F16296-9F29-431F-BB78-07DB72053F17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93F16296-9F29-431F-BB78-07DB72053F17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93F16296-9F29-431F-BB78-07DB72053F17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93F16296-9F29-431F-BB78-07DB72053F17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F2077CF-F093-4BB8-8985-FAFCD62F7379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F2077CF-F093-4BB8-8985-FAFCD62F7379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F2077CF-F093-4BB8-8985-FAFCD62F7379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F2077CF-F093-4BB8-8985-FAFCD62F7379}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C542B033-A73A-4B30-AE78-33347E2F375E} = {6DDCCDB1-717A-42E3-9806-326B2E2040C7}
+		{31B7B555-EC92-41FC-8A6B-50BF6D113856} = {6DDCCDB1-717A-42E3-9806-326B2E2040C7}
+		{93F16296-9F29-431F-BB78-07DB72053F17} = {C542B033-A73A-4B30-AE78-33347E2F375E}
+		{0F2077CF-F093-4BB8-8985-FAFCD62F7379} = {31B7B555-EC92-41FC-8A6B-50BF6D113856}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB74B359-4E5C-4B40-9380-459DF88B6E2D}
+	EndGlobalSection
+EndGlobal
