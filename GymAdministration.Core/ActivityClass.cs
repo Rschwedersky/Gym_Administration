@@ -12,7 +12,7 @@ namespace GymAdministration.Core
         public string Name { get; private set; }
         public string Description { get; private set; }
         public DateTime StartedDate { get; private set; }
-        public DateTime FinishedDate { get; private set; }
+        public DateTime? FinishedDate { get; private set; }
 
         public StatusEnum Status { get; private set; }
 
@@ -20,14 +20,14 @@ namespace GymAdministration.Core
 
         public Student Student { get; private set; }
 
-        public ActivityClass(int id, string name, string description, DateTime startedDate, DateTime finishedDate, StatusEnum status, Employee employee, Student student)
+        public ActivityClass( string name, string description, DateTime startedDate, Employee employee, Student student)
         {
             Random random = new Random();
             Id = random.Next(50000, 100000);
             Name = name;
             Description = description;
             StartedDate = startedDate;
-            FinishedDate = finishedDate;
+            
             Status = StatusEnum.Active;
             Employee = employee;
             Student = student;

@@ -23,6 +23,7 @@ namespace GymAdministration.Core
             Id = random.Next(50000, 100000);
             Name = name;
             MedicalObservation = medicalObservation;
+            BirthdayDate = birthdayDate;
             StudentStatus = StatusEnum.Active;
 
         }
