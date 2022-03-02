@@ -13,9 +13,10 @@ Student student10 = new Student("zion", "saudavel", new DateTime(1987, 05, 04));
 
 Employee employee1 = new Employee(01, "augusto", DateTime.Now);
 
+
 ActivityClass class1 = new ActivityClass("musculação", "salao grande", DateTime.Now, employee1, student9);
 
-
+Equipament equipament = new Equipament(01, "LegPress", "legs", DateTime.Now);
 
 Console.WriteLine("----------Student------------");
 Console.WriteLine($"Client: {student1.Name} Status: {student1.StudentStatus}");
@@ -26,5 +27,8 @@ Console.WriteLine($"Name:{class1.Name} " +
 Console.WriteLine("");
 Console.WriteLine("----------Employee------------");
 Console.WriteLine($"Teacher: {employee1.Name} Id: {employee1.Id}");
+Console.WriteLine("");
+Console.WriteLine("----------Main equipament------------");
+Console.WriteLine($"Equipament: {equipament.Name} Id: {equipament.Id}");
 Console.WriteLine("************************************");
 Console.WriteLine("");
