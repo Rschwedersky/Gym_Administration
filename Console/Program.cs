@@ -49,3 +49,21 @@ lista.ForEach(i => Console.Write(
     Environment.NewLine +
     $"Equipament: {i.Name} Id: {i.Id}" +
     Environment.NewLine));
+
+
+int cont2 = 0;
+List<Employee> lista2 = new List<Employee>();
+
+while (cont2 < 10)
+{
+
+    Employee employee = new Employee(cont2, "augusto", DateTime.Now);
+
+    lista2.Add(employee);
+    cont2++;
+}
+lista2.ForEach(e => Console.Write(
+    "----------Employee------------" +
+    Environment.NewLine +
+    $"Employee: {e.Name} Id: {e.Id}" +
+    Environment.NewLine));
