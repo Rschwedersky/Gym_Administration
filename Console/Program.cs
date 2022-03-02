@@ -32,3 +32,20 @@ Console.WriteLine("----------Main equipament------------");
 Console.WriteLine($"Equipament: {equipament.Name} Id: {equipament.Id}");
 Console.WriteLine("************************************");
 Console.WriteLine("");
+
+int cont = 0;
+List<Equipament> lista = new List<Equipament>();
+
+while (cont < 10)
+{
+
+    Equipament equipament2 = new Equipament(cont, "Sup", "Arms", DateTime.Now);
+
+    lista.Add(equipament2);
+    cont++;
+}
+lista.ForEach(i => Console.Write(
+    "----------Main equipament------------" +
+    Environment.NewLine +
+    $"Equipament: {i.Name} Id: {i.Id}" +
+    Environment.NewLine));
